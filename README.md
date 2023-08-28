@@ -1,3 +1,3 @@
 # webDevelopment
 
-Web Development Page for Pc-NM.com wp2023 site
+Web Development Page for PC-NM.com wp2023 site
