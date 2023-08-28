@@ -12,13 +12,13 @@ window.onload = function () {
   };
   const particles = Particles.init({
     selector: ".background",
-    color: ["#3223d3", "#ff0000", "#ffffff"],
+    color: ["#03dac6", "#ff0266", "#000000"],
     connectParticles: true,
     responsive: [
       {
         breakpoint: 768,
         options: {
-          color: ["#3223d3", "red", "#ffffff"],
+          color: ["#faebd7", "#03dac6", "#ff0266"],
           maxParticles: 43,
           connectParticles: false
         }
@@ -139,5 +139,4 @@ window.onload = function () {
   Design - Sara Mazal Web;
   Fonts - Google Fonts
   */
- 
   

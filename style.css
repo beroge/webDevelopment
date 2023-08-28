@@ -17,14 +17,14 @@
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #ff0000;
+    background-color: #3223d3;
     color: white;
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
   }
   
-  #myBtn:hover {
+  #topBtn:hover {
     background-color: #555;
   }
   
@@ -36,7 +36,7 @@
     align-items: center;
     height: 100vh;
     position: relative;
-    background-color: #1e1f26;
+    background-color: #ebecf3;
     text-align: center;
     padding: 0 2em;
   }
@@ -48,13 +48,13 @@
     margin: 0;
     padding-bottom: 0.5rem;
     letter-spacing: 0.5rem;
-    color: #ff0000;
+    color: #3223d3;
     transition: all 0.3s ease;
     z-index: 3;
   }
   h1:hover {
     transform: translate3d(0, -10px, 22px);
-    color: #3223d3;
+    color: red;
   }
   
   .slider h2 {
@@ -69,7 +69,7 @@
     font-size: 2vw;
     letter-spacing: 0.7em;
     font-family: "ROBOTO", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     color: #faebd7;
     z-index: 4;
   }
@@ -91,7 +91,7 @@
     width: 100%;
     height: 75px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-    background: #1e1f26;
+    background: #3223d3;
     z-index: 10;
     transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
   }
@@ -111,15 +111,15 @@
     justify-content: center;
     align-items: center;
     flex: 1;
-    color: red;
+    color:#ffffff;
     letter-spacing: 0.1rem;
     transition: all 0.5s ease;
     font-size: 2vw;
   }
   
   .nav-tab:hover {
-    color: white;
-    background: red;
+    color: #3223d3;
+    background: #fff;
     transition: all 0.5s ease;
   }
   
@@ -129,7 +129,7 @@
     width: 0;
     height: 2px;
     background: #03dac6;
-    transition: left 0.3s ease;
+    transition: left 0.1s ease;
   }
   .background {
     position: absolute;
@@ -182,17 +182,21 @@
     z-index: 0;
   }
   .loader span {
-    color: #faebd7;
-    text-shadow: 0 0 0 #faebd7;
+    color: #3223d3;
+    text-shadow: 0 0 0 #d61111;
     -webkit-animation: loading 1s ease-in-out infinite alternate;
   }
   
-  @-webkit-keyframes loading {
-    to {
-      text-shadow: 20px 0 70px #ff0266;
-      color: #ff0266;
-    }
+@-webkit-keyframes loading {
+  to {
+    text-shadow: 20px 0 70px red;
+    color: red;
   }
+  /* Specify the duration of the animation */
+  animation-duration: 2s; /* Change the value to slow down or speed up the animation */
+  animation-timing-function: linear; /* Change the timing function if needed */
+}
+
   .loader span:nth-child(2) {
     -webkit-animation-delay: 0.1s;
   }
