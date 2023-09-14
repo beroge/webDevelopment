@@ -20,12 +20,15 @@
   <button onclick="topScroll()" id="topBtn" title="Go to top">Top</button>
     
     <section class="nav">
+      <canvas class="background"></canvas>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script> 
+      <script src="scripts.js" type="text/javascript"></script>
         <h1>Web Development</h1>
         <h3 class="span loader"><span class="m">W</span><span class="m">E</span><span class="m">B</span><span class="m">S</span><span class="m">I</span><span class="m">T</span><span class="m">E</span><span class="m">S</span><span class="m">&nbsp;</span><span class="m">a</span><span class="m">n</span><span class="m">d</span><span class="m">&nbsp;</span><span class="m">W</span><span class="m">E</span><span class="m">B</span><span class="m">&nbsp;</span><span class="m">A</span><span class="m">P</span><span class="m">P</span><span class="m">S</span></h3>
         <div class="nav-container"><a class="nav-tab" href="#tab-personal">PERSONAL</a><a class="nav-tab" href="#tab-business">BUSINESS</a><a class="nav-tab" href="#tab-cms">CMS</a><a class="nav-tab" href="#tab-applications">APPLICATIONS</a><span class="nav-tab-slider"></span></div>
       </section>
   
-    <main class="main">
+    <div class="main">
       <section class="slider" id="tab-personal">
         <h1>PERSONAL</h1>
         <h2>Sites Made for YOU</h2>
@@ -42,10 +45,8 @@
         <h1>Applications</h1>
         <h2>Web-Based Custom Tailored Programs</h2>
       </section>
-    </main>
-    <canvas class="background"></canvas>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script> 
-    <script src="scripts.js" type="text/javascript"></script>
+    </div>
+   
     <script>
       // Get the button
       let mybutton = document.getElementById("topBtn");
